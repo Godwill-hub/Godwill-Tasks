@@ -6,19 +6,19 @@ public class Book{
     private String isbn;
     int copiesAvailable;
 
-    public Book(String title,String author,String isbn,int copiesAvailable){ //Here is a Constructor and it initializes the attributes we have declared above.
+    public Book(String title,String author,String isbn,int copiesAvailable){ 
         this.title=title;
         this.author=author;
         this.isbn=isbn;
         this.copiesAvailable=copiesAvailable;
     }
-    public String getIsbn(){// This method gets the isbn of the book
+    public String getIsbn(){
         return isbn;
     }
-    public void setCopiesAvailable(int numofcopiesavail){// This method sets the number of copies available for that particular book.
+    public void setCopiesAvailable(int numofcopiesavail){
         this.copiesAvailable=numofcopiesavail;
     }
-    int getCopiesAvailable(){//This method gets the number of copies available for a particular book.
+    int getCopiesAvailable(){
         return copiesAvailable;
     }
 }
