@@ -6,15 +6,15 @@ public class Member {
     private String memberId;
     private List<Book> borrowedBooks;
 
-    public Member(String name,String memberId){//Here we initialize the name and memberId and we also create and array list for borrowed books
+    public Member(String name,String memberId){
         this.name=name;
         this.memberId=memberId;
         this.borrowedBooks=new ArrayList<>();
     }
-    public String getMemberId(){//This method helps us to access the memberId attribute
+    public String getMemberId(){
         return memberId;
     }
-    public void borrowBook(Book book){//Here we are told in the question that the borrowBook method will use the addBookToBorrowedList method to add a book to the members borrowed books list thtas why we have included addBookToBorrowedList method to the borrowBook method.
+    public void borrowBook(Book book){
         addBookToBorrowedList(book);
     }
     private void addBookToBorrowedList(Book book){
