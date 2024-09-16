@@ -4,7 +4,7 @@ public class movieItem{
     private String title;//this variable stores the title of the movie
     private String author;//this variable stores the author of the movie
 
-    public movieItem(String title,String author){//Here we have created a protected constructor to initialize the title and author
+    protected movieItem(String title,String author){//Here we have created a protected constructor to initialize the title and author
         this.title=title;
         this.author=author;
     }
