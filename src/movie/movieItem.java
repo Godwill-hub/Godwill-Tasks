@@ -4,7 +4,7 @@ public class movieItem{
     private String title;//this variable stores the title of the movie
     private String author;//this variable stores the author of the movie
 
-    public movieItem(String title, String author){//Here we have created a protected constructor to initialize the title and author
+    public movieItem(String title,String author){//Here we have created a protected constructor to initialize the title and author
         this.title=title;
         this.author=author;
     }
@@ -15,6 +15,6 @@ public class movieItem{
         return author;
     }
     void printDetails(){//this method helps us print the title and author of the movie
-        System.out.println("Title:"+title+",Author: "+author);
+        System.out.println("Title:"+title+",Author:"+author);
     }
 }
