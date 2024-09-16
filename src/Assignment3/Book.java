@@ -6,7 +6,7 @@ public class Book{
     private String isbn;
     int copiesAvailable;
 
-    public Book(String title, String author, String isbn, int copiesAvailable){ //Here is a Constructor and it initializes the attributes we have declared above.
+    public Book(String title,String author,String isbn,int copiesAvailable){ //Here is a Constructor and it initializes the attributes we have declared above.
         this.title=title;
         this.author=author;
         this.isbn=isbn;
