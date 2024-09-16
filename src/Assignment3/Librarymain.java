@@ -2,7 +2,7 @@ package Assignment3;
 
 public class Librarymain{
     public static void main(String[] args) {
-        Library library = new Library();//a library is created here
+        Library library=new Library();//a library is created here
         // Here books have been created
         Book bk1=new Book("Rich Dad Poor Dad","Robert Kiyosaki","10496",11);
         Book bk2=new Book("Cheaters never win","Wayne Brandt","03278",9);
