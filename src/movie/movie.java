@@ -4,7 +4,7 @@ import java.util.List;
 public class movie{
     private List<movieItem> movieItems;//Here we declare a list that will store movieItems
     public movie(){//Here we initialize our previously declared list
-        movieItems = new ArrayList<>();
+        movieItems=new ArrayList<>();
     }
     public void addmovieItem(movieItem item){// this method is what we will use to add our created movieItem objects to the list
         movieItems.add(item);
